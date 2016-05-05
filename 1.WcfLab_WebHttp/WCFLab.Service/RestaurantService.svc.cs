@@ -15,13 +15,12 @@ namespace WCFLab.Service
     {
         public Restaurant GetRestaurant(int id)
         {
-            var result = new Restaurant { Id = id, Name = "水餃王", Address = "你家旁邊", PhoneNumber = "23456789" };
+            var result = new Restaurant { Id = id, Name = "DumplingKing", Address = "Just next to your home.", PhoneNumber = "23456789" };
             return result;
         }
 
         public Restaurant SaveRestaurant(Restaurant restaurant)
         {
-            var restaurantq = new Restaurant { Id = 123, Name = "水餃王", Address = "你家旁邊", PhoneNumber = "23456789" };
             return restaurant;
         }
     }

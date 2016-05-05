@@ -19,13 +19,13 @@ namespace WCFLab.WebApp.Controllers
             var client = new HttpClient();
             var serializer= new JavaScriptSerializer();
 
-            var getResult = client.GetAsync("http://localhost/WcfLabService/RestaurantService.svc/GetRestaurant?id=12").Result;
+            var getResult = client.GetAsync("http://localhost/WCFLabService/RestaurantService.svc/GetRestaurant?id=12").Result;
 
-            var restaurant = new Restaurant() { Id = 123, Name = "水餃王", Address = "你家旁邊", PhoneNumber = "23456789" };
+            var restaurant = new Restaurant() { Id = 123, Name = "DumplingKing", Address = "Just next to your home.", PhoneNumber = "23456789" };
 
             var jsonString= serializer.Serialize(new { restaurant= restaurant });
             var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
-            var postResponse = client.PostAsync("http://localhost/WcfLabService/RestaurantService.svc/SaveRestaurant", content).Result;
+            var postResponse = client.PostAsync("http://localhost/WCFLabService/RestaurantService.svc/SaveRestaurant", content).Result;
             var postContent = postResponse.Content.ReadAsStringAsync().Result;
             var postResult = serializer.Deserialize<dynamic>(postContent)["SaveRestaurantResult"];
             var newRestaurant = new Restaurant(postResult);
