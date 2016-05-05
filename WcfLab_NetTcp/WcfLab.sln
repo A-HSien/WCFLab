@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFLab.Service", "WcfLabService\WCFLab.Service.csproj", "{C5790559-8857-40E5-A0E8-EBCDFB98E043}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{83FBD4E9-06D8-45A8-A3A7-7C404AEABEF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{9872F84C-03D4-46E5-9D4B-B49440DB7033}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domains", "Domains", "{D34D51A4-1CE6-4872-AEAD-8614053FCF24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFLab.Domains", "WCFLab.Domains\WCFLab.Domains.csproj", "{6C929883-ADC9-4D08-9C04-8A08D32A7759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFLab.WebApp", "WCFLab.WebApp\WCFLab.WebApp.csproj", "{B6D25D15-75DD-49D0-9CC9-12AF72050535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFLab.IService", "WcfLab.IService\WCFLab.IService.csproj", "{21B08E2C-E8F1-4F86-8366-9AAC1809994F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5790559-8857-40E5-A0E8-EBCDFB98E043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5790559-8857-40E5-A0E8-EBCDFB98E043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5790559-8857-40E5-A0E8-EBCDFB98E043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5790559-8857-40E5-A0E8-EBCDFB98E043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C929883-ADC9-4D08-9C04-8A08D32A7759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C929883-ADC9-4D08-9C04-8A08D32A7759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C929883-ADC9-4D08-9C04-8A08D32A7759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C929883-ADC9-4D08-9C04-8A08D32A7759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D25D15-75DD-49D0-9CC9-12AF72050535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D25D15-75DD-49D0-9CC9-12AF72050535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D25D15-75DD-49D0-9CC9-12AF72050535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D25D15-75DD-49D0-9CC9-12AF72050535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B08E2C-E8F1-4F86-8366-9AAC1809994F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B08E2C-E8F1-4F86-8366-9AAC1809994F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B08E2C-E8F1-4F86-8366-9AAC1809994F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B08E2C-E8F1-4F86-8366-9AAC1809994F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5790559-8857-40E5-A0E8-EBCDFB98E043} = {9872F84C-03D4-46E5-9D4B-B49440DB7033}
+		{6C929883-ADC9-4D08-9C04-8A08D32A7759} = {D34D51A4-1CE6-4872-AEAD-8614053FCF24}
+		{B6D25D15-75DD-49D0-9CC9-12AF72050535} = {83FBD4E9-06D8-45A8-A3A7-7C404AEABEF4}
+		{21B08E2C-E8F1-4F86-8366-9AAC1809994F} = {9872F84C-03D4-46E5-9D4B-B49440DB7033}
+	EndGlobalSection
+EndGlobal
